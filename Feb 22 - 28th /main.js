@@ -22,3 +22,14 @@ function makeNegative(num) {
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/abs
 
 // https://stackoverflow.com/questions/5574144/positive-number-to-negative-number-in-javascript
+
+// tues - 23
+// Make it return the oppsite number 
+
+function opposite(number) {
+  if( number >= 0 ){
+  return -Math.abs(number)//your code here
+}
+  else{ return Math.abs(number)}
+}
+
