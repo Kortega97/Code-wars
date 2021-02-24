@@ -33,3 +33,19 @@ function opposite(number) {
   else{ return Math.abs(number)}
 }
 
+// wens 24th
+
+// We need a function that can transform a number into a string.
+
+// What ways of achieving this do you know?
+
+// Examples:
+// numberToString(123); // returns '123';`   
+// numberToString(999); // returns '999';`
+
+function numberToString(num) {
+  num.toString()
+  return num.toString()// Return a string of the number here!
+}
+
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toString
