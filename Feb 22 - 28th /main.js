@@ -1,5 +1,5 @@
 // Mon-22
-
+// Return Negative
 // In this simple assignment you are given a number and have to make it negative. But maybe the number is already negative?
 
 // Example:
@@ -24,6 +24,9 @@ function makeNegative(num) {
 // https://stackoverflow.com/questions/5574144/positive-number-to-negative-number-in-javascript
 
 // tues - 23
+
+// Opposite number
+
 // Make it return the oppsite number 
 
 function opposite(number) {
@@ -34,7 +37,7 @@ function opposite(number) {
 }
 
 // wens 24th
-
+// Convert a Number to a String!
 // We need a function that can transform a number into a string.
 
 // What ways of achieving this do you know?
