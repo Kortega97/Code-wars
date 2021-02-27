@@ -75,3 +75,17 @@ function myFirstKata(a ,b){
   }
 }
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof
+
+// thurday feb 26th
+
+// MakeUpperCase
+
+// Write a function which converts the input string to uppercase.
+
+function makeUpperCase(str) {
+  str.length = 'hello','hello world', 'hello world !', 'hello world !',
+  '1,2,3 hello world!' 
+    return str.toUpperCase(str.length)// Code here
+  }
+
+  // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/length
