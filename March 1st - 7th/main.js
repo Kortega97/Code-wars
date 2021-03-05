@@ -20,12 +20,23 @@ function filter_list(l) {
 
   
   //  March 3rd
-  
+
   // Remove First and Last Character
 
   // It's pretty straightforward. Your goal is to create a function that removes the first and last characters of a string. You're given one parameter, the original string. You don't have to worry with strings with less than two characters.
   function removeChar(str) { 
-    str.slice(1); 
-     str.slice(0, str.length - 1); 
-     return str
+    return str.slice(1,str.length - 1); 
             } 
+
+
+// March 4th
+// Convert an array of strings to array of numbers
+// Some really funny web dev gave you a sequence of numbers from his API response as an sequence of strings!
+
+// You need to cast the whole array to the correct type.
+
+// Create the function that takes as a parameter a sequence of numbers represented as strings and outputs a sequence of numbers.
+
+function toNumberArray(stringarray){
+  return  stringarray.map(ele => Number(ele) )
+}
