@@ -16,3 +16,27 @@ var a = (123).toString();
 function fixTheMeerkat(arr) {
     return arr.reverse() //your code here 
     }
+
+// march 24
+// 101 Dalmatians - squash the bugs, not the dogs!
+// Your friend has been out shopping for puppies (what a time to be alive!)... He arrives back with multiple dogs, and you simply do not know how to respond!
+// By repairing the function provided, you will find out exactly how you should respond, depending on the number of dogs he has.
+// The number of dogs will always be a number and there will always be at least 1 dog.
+
+unction howManyDalmatians(number){
+    if (number <= 10) {
+      return "Hardly any"
+    } else if (number <= 50) {
+      return "More than a handful!"
+    } else if (number === 101) {
+      return "101 DALMATIANS!!!"
+    } else {
+      return "Woah that's a lot of dogs!" 
+    }
+  }   
+  
+  // march 25th
+  // Incorrect division method
+  // This method, which is supposed to return the result of dividing its first argument by its second, isn't always returning correct values. Fix it.
+
+  const solve = (x, y) => x / y 
