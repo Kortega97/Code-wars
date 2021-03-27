@@ -40,3 +40,27 @@ unction howManyDalmatians(number){
   // This method, which is supposed to return the result of dividing its first argument by its second, isn't always returning correct values. Fix it.
 
   const solve = (x, y) => x / y 
+
+  // March 26th
+  // Get the integers between two numbers
+//   Build a function that can get all the integers between two given numbers.
+
+// Example:
+
+// (2,9)
+
+// Should give you this output back:
+
+// [ 3, 4, 5, 6, 7, 8 ]
+
+// If startNum is the same as endNum, return an empty array.
+
+function range(startNum, endNum)   
+{  
+let finalArr = [];  // to place our results from the array 
+  for (var i = startNum + 1; i < endNum; i++) { // for loop to get integers 
+      finalArr.push(i)
+  }
+  return finalArr;
+  //code goes in here
+};  
