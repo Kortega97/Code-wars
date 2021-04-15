@@ -32,10 +32,38 @@ var websites = [];
 while (websites.length < 1000) websites.push("codewars")
 
 
+    //  a 14th
 
+    function peak(arr){
 
-    //  a14th
-    // this is a code wars
+      var i, j;
+      var leftsum, rightsum;
+       
+      for(i = 0; i < arr.length; ++i)
+      {
+ 
+          leftsum = 0;
+           for(let j = 0; j < i; j++)
+           leftsum += arr[j];
+            
+           rightsum = 0;
+           for(let j = i + 1; j < arr.length; j++)
+           rightsum += arr[j];
+            
+     
+           if(leftsum == rightsum)
+              return i;
+      }
+       
+         return -1;
+}
+
     // a15th
-    // 16th
-    
+
+   
+
+    //  a 16th
+
+
+
+ 
