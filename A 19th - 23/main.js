@@ -1,4 +1,4 @@
-// april 6th 
+
 // Get the mean of an array
 // It's the academic year's end, fateful moment of your school report. The averages must be calculated. All the students come to you and entreat you to calculate their average for them. Easy ! You just need to write a script.
 
@@ -16,4 +16,16 @@ function getAverage(marks){
    return Math.floor(avg)
      //TODO : calculate the downwar rounded average of the marks array
    }
+
    
+   function howManyDalmatians(number){
+    if (number <= 10) {
+      return "Hardly any"
+    } else if (number <= 50) {
+      return "More than a handful!"
+    } else if (number === 101) {
+      return "101 DALMATIANS!!!"
+    } else {
+      return "Woah that's a lot of dogs!" 
+    }
+  }   
