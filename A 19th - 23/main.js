@@ -49,3 +49,12 @@ function deleteValues(array, pred) {
   }
   return array;
 }
+
+//  A 22
+
+*/
+
+function capitalize(s){
+  return [s.split('').map((v,i)=>i%2==0?v.toUpperCase():v.toLowerCase()).join(''),
+          s.split('').map((v,i)=>i%2!==0?v.toUpperCase():v.toLowerCase()).join('')]
+};
