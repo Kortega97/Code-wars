@@ -13,5 +13,7 @@ function removeSmallest(numbers) {
   }
 
 
-// 29TH
-
+// 28TH
+function projectPartners(n) {
+    return n * (n-1) / 2;
+  }
