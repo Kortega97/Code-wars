@@ -49,7 +49,9 @@ function total(arr) {
 
 // 5
 
-
+function isSquare(n) {
+    return Math.sqrt(n) % 1 === 0;
+  }
 
 // 6
 
