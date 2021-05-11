@@ -70,6 +70,8 @@ while (websites.length < 1000) websites.push("codewars")
      return null
    } //coding and
 
+
+   
     //  a 16th
     Description:
 // You have to create a method "compoundArray" which should take as input two int arrays of different length and return one int array with numbers of both arrays shuffled one by one.
