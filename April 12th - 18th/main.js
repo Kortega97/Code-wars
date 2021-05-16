@@ -60,7 +60,15 @@ while (websites.length < 1000) websites.push("codewars")
 
     // a15th
 
-   
+    function findAB(numbers,c){
+
+      for (let i=0;i<numbers.length;i++){
+        for (let j=1+i;j<numbers.length;j++){
+         if (numbers[i]*numbers[j]===c) return [numbers[i],numbers[j]]
+        }
+      }
+     return null
+   } //coding and
 
     //  a 16th
 
