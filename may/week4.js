@@ -19,5 +19,9 @@ function insertDashII(num) {
     return arr.join('')
     }
 // -27th
-
+function twiceAsOld(dadYearsOld, sonYearsOld) {
+    let total = dadYearsOld - (sonYearsOld * 2)
+      return Math.abs(total)
+      
+    }
 // -28th
