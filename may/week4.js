@@ -28,3 +28,20 @@ function twiceAsOld(dadYearsOld, sonYearsOld) {
 function positiveSum(arr) {
     return arr.reduce((a,b)=> a + (b > 0 ? b : 0),0);
  }
+//  31st
+/*
+Description:
+Switch/Case - Bug Fixing #6
+Oh no! Timmy's evalObject function doesn't work. He uses Switch/Cases to evaluate the given properties of an object, can you fix timmy's function?
+*/
+
+function evalObject(value){
+    switch(value.operation){
+      case'+': return value.a + value.b;
+      case'-': return value.a - value.b;
+      case'/': return value.a / value.b;
+      case'*': return value.a * value.b;
+      case'%': return value.a % value.b;
+      case'^': return Math.pow(value.a, value.b);
+    }
+  }
