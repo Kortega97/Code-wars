@@ -28,6 +28,37 @@
     console.log(longestCommonPrefix(strs))
   })
 // 27th
+// Given a string containing just the characters '(', ')', '{', '}', '[' and
+// ']', determine if the input string is valid.
+
+// The brackets must close in the correct order, "()" and "()[]{}" are all valid
+// but "(]" and "([)]" are not.
+
+/**
+ * @param {string} s
+ * @return {boolean}
+ */
+ const isValid = function(s) {
+    const stack = []
+    for (let v of s) {
+          if (v === '(') stack.push(')')
+          else if (v === '{') stack.push('}')
+          else if (v === '[') stack.push(']')
+          else if (stack.length === 0 || stack.pop() !== v) return false
+    }
+  
+    return stack.length === 0
+  }
+  
+  ;[
+    '(',                          // false
+    '()',                         // true
+    '([)]',                       // false
+    '(]',                         // false
+    '()[]{}',                     // true
+  ].forEach((s) => {
+    console.log(isValid(s))
+  })
 // 28th
 // 29th
 // 30th
